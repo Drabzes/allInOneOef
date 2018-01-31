@@ -1,0 +1,8 @@
+<div>
+  Search for Hero:
+  <input type="text" name="nameHero" [(ngModel)]="filterName"  (keyup)="filterNameKeyChange($event.target.value)">
+  Select rating:
+  <select [(ngModel)]="selectedDifficulty"  (change)="difficultyChange($event.target.value)">
+  <option *ngFor="let d of difficulties" [ngValue]="d">{{d}}</option>
+</select>
+</div>

@@ -1,0 +1,14 @@
+.container {
+  background-color: darkcyan;
+  margin: 10px;
+  float: left;
+  width: 500px;
+  height: 500px;
+}
+.image {
+  float: left;
+}
+
+.abilities {
+  float: left;
+}

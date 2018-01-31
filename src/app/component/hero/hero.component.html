@@ -1,0 +1,18 @@
+<div class="container">
+  <div>
+    <h2>{{hero.name}}</h2>
+    <p>difficulty: {{hero.difficulty}}</p>
+    <p>class: {{hero.class}}</p>
+  </div>
+  <div >
+    <div class="image">
+      <img src="{{hero.avatar}}"/>
+    </div>
+    <div class="abilities">
+      <p>abilities:</p>
+      <ul *ngFor="let ability of hero.abilities">
+        <li>{{ability}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
